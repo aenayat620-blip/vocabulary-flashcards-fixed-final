@@ -67,7 +67,12 @@ export function applyAnswer(
 }
 
 export function isDue(item: VocabularyItem, now = Date.now()): boolean {
-  if (!item.learning.nextReviewDate) return true; // never reviewed
+  // A word that has never been studied is NOT a review item.
+  if (item.learning.totalReviews === 0) return false;
+
+  // Only previously studied words can become due for review.
+  if (!item.learning.nextReviewDate) return false;
+
   return item.learning.nextReviewDate <= now;
 }
 
