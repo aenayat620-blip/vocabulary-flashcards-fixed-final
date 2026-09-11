@@ -6,7 +6,7 @@
  
  Example:
   export const BUNDLED_CATEGORIES = [
-    String.raw`\\voccategory{Family \& People}{افراد و خانواده}
+    String.raw\\voccategory{Family \& People}{افراد و خانواده}
         \vwordpair{Mother}{(ما)ذِر}{مادر}{Son}{سان}{پسر}
 	\vwordpair{Father}{(فا)ذِر}{پدر}{Daughter}{(دا)تِر}{دختر}
 	\vwordpair{Brother}{(برا)ذِر}{برادر}{Grandfather}{(گرنـد)فاذِر}{پدربزرگ}
@@ -194,7 +194,7 @@
 	\vwordpair{Concave}{(کانـ)کیو}{مقعر}{Convex}{(کانـ)وکس}{محدب}
 	\vwordpair{Zigzag}{(زیگـ)زگ}{زیگزاگ}{Spiral}{(اسپایـ)رال}{مارپیچ}
   ];
- *
- * Leave the array empty if you prefer to import categories from the app.
- */
+ 
+  Leave the array empty if you prefer to import categories from the app.
+ /
 export const BUNDLED_CATEGORIES: string[] = [];
