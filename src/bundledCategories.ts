@@ -1,5 +1,5 @@
 export const BUNDLED_CATEGORIES: string[] = [
-  String.raw\voccategory{Family \& People}{افراد و خانواده}
+  String.raw`\voccategory{Family \& People}{افراد و خانواده}
 	\vwordpair{Mother}{(ما)ذِر}{مادر}{Son}{سان}{پسر}
 	\vwordpair{Father}{(فا)ذِر}{پدر}{Daughter}{(دا)تِر}{دختر}
 	\vwordpair{Brother}{(برا)ذِر}{برادر}{Grandfather}{(گرنـد)فاذِر}{پدربزرگ}
@@ -49,8 +49,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Citizen}{(سیتـ)یزن}{شهروند}{Immigrant}{(ایمـ)یگرنت}{مهاجر}
 	\vwordpair{Refugee}{رفیو(جی)}{پناهنده}{Neighborhood}{(نیبـ)رهود}{محله}
 	\vwordpair{Ex-husband}{اکس (هازـ)بند}{همسر سابق (مرد)}{Ex-wife}{اکس (وایـ)ف}{همسر سابق (زن)}
-	\vwordpair{Blended family}{(بلنـ)دد فمیلی}{خانواده ترکیبی}{In-laws}{این‌لاز}{خانواده همسر},
-  String.raw\voccategory{Numbers, Time \& Calendar}{اعداد، زمان و تقویم}
+	\vwordpair{Blended family}{(بلنـ)دد فمیلی}{خانواده ترکیبی}{In-laws}{این‌لاز}{خانواده همسر}`,
+  String.raw`\voccategory{Numbers, Time \& Calendar}{اعداد، زمان و تقویم}
 	\vwordpair{Zero}{زیرو}{صفر}{One}{وان}{یک}
 	\vwordpair{Two}{تو}{دو}{Three}{ثری}{سه}
 	\vwordpair{Four}{فور}{چهار}{Five}{فایو}{پنج}
@@ -123,8 +123,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Many}{(منـ)ی}{بسیاری}{Countless}{(کاونتـ)لس}{بی‌شمار}
 	\vwordpair{Percent}{پر(سنـ)ت}{درصد}{Percentage}{پر(سنـ)تیج}{درصد (کمیت)}
 	\vwordpair{A.M.}{ای‌ام}{قبل از ظهر}{P.M.}{پی‌ام}{بعد از ظهر}
-	\vwordpair{Midweek}{(میدـ)ویک}{وسط هفته}{Semiannual}{سمی(انـ)یوال}{شش‌ماهه},
-  String.raw\voccategory{Colors \& Shapes}{رنگ‌ها و اشکال}
+	\vwordpair{Midweek}{(میدـ)ویک}{وسط هفته}{Semiannual}{سمی(انـ)یوال}{شش‌ماهه}`,
+  String.raw`\voccategory{Colors \& Shapes}{رنگ‌ها و اشکال}
 	\vwordpair{Red}{رد}{قرمز}{Orange}{(اُرـ)نج}{نارنجی}
 	\vwordpair{Yellow}{(یِلـ)و}{زرد}{Green}{گرین}{سبز}
 	\vwordpair{Blue}{بلو}{آبی}{Purple}{(پرـ)پل}{بنفش}
@@ -185,8 +185,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Radius}{(ریدـ)یوس}{شعاع}{Diameter}{دای(امـ)یتر}{قطر}
 	\vwordpair{Two-dimensional}{تو-دای(منـ)شنال}{دوبعدی}{Three-dimensional}{ثری-دای(منـ)شنال}{سه‌بعدی}
 	\vwordpair{Concave}{(کانـ)کیو}{مقعر}{Convex}{(کانـ)وکس}{محدب}
-	\vwordpair{Zigzag}{(زیگـ)زگ}{زیگزاگ}{Spiral}{(اسپایـ)رال}{مارپیچ},
-  String.raw\voccategory{Body \& Health}{بدن و سلامت}
+	\vwordpair{Zigzag}{(زیگـ)زگ}{زیگزاگ}{Spiral}{(اسپایـ)رال}{مارپیچ}`,
+  String.raw`\voccategory{Body \& Health}{بدن و سلامت}
 	\vwordpair{Head}{هد}{سر}{Face}{فیس}{صورت}
 	\vwordpair{Hair}{هر}{مو}{Forehead}{(فُرـ)هد}{پیشانی}
 	\vwordpair{Eyebrow}{(آیـ)براو}{ابرو}{Eyelash}{(آیـ)لَش}{مژه}
@@ -262,8 +262,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Rehabilitation}{ری‌هبیلی(تیـ)شن}{توان‌بخشی}{Wheelchair}{(ویلـ)چر}{ویلچر}
 	\vwordpair{Crutches}{(کراچـ)ز}{عصای زیربغل}{Stethoscope}{(استتـ)اسکوپ}{گوشی پزشکی}
 	\vwordpair{Thermometer}{تر(مامـ)یتر}{دماسنج}{Syringe}{س(رینـ)ج}{سرنگ}
-	\vwordpair{Gauze}{گاز}{گاز استریل}{Stitches}{(استیچـ)ز}{بخیه},
-  String.raw\voccategory{Food \& Cooking}{غذا و آشپزی}
+	\vwordpair{Gauze}{گاز}{گاز استریل}{Stitches}{(استیچـ)ز}{بخیه}`,
+  String.raw`\voccategory{Food \& Cooking}{غذا و آشپزی}
 	\vwordpair{Bread}{برد}{نان}{Rice}{رایس}{برنج}
 	\vwordpair{Pasta}{(پاسـ)تا}{پاستا}{Meat}{میت}{گوشت}
 	\vwordpair{Chicken}{(چیکـ)ن}{مرغ}{Beef}{بیف}{گوشت گاو}
@@ -344,8 +344,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Freeze}{فریز}{فریز کردن}{Garnish}{(گارـ)نیش}{تزئین کردن}
 	\vwordpair{Sprinkle}{(اسپرینـ)کل}{پاشیدن}{Drain}{دِرین}{آبکش کردن}
 	\vwordpair{Crunchy}{(کرانـ)چی}{ترد}{Juicy}{(جوـ)سی}{آبدار}
-	\vwordpair{Ripe}{رایپ}{رسیده}{Frozen}{(فروـ)زن}{منجمد},
-  String.raw\voccategory{House \& Furniture}{خانه و وسایل منزل}
+	\vwordpair{Ripe}{رایپ}{رسیده}{Frozen}{(فروـ)زن}{منجمد}`,
+  String.raw`\voccategory{House \& Furniture}{خانه و وسایل منزل}
 	\vwordpair{Living room}{(لیوـ)ینگ روم}{اتاق نشیمن}{Bedroom}{(بدـ)روم}{اتاق خواب}
 	\vwordpair{Kitchen}{(کیچـ)ن}{آشپزخانه}{Bathroom}{(بثـ)روم}{حمام / دستشویی}
 	\vwordpair{Dining room}{(دایـ)نینگ روم}{اتاق غذاخوری}{Hallway}{(هالـ)وی}{راهرو}
@@ -421,8 +421,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Wallpaper}{(والـ)پیپر}{کاغذدیواری}{Tile}{تایل}{کاشی}
 	\vwordpair{Hardwood floor}{(هاردـ)وود فلور}{کف‌پوش چوبی}{Windowpane}{(ویندوـ)پین}{شیشه پنجره}
 	\vwordpair{Umbrella stand}{آم(برلـ)ا استند}{جاچتری}{Nightlight}{(نایتـ)لایت}{چراغ‌خواب}
-	\vwordpair{Intercom}{(اینـ)ترکام}{آیفون}{Peephole}{(پیپـ)هول}{چشمی در},
-  String.raw\voccategory{Clothing}{لباس و پوشاک}
+	\vwordpair{Intercom}{(اینـ)ترکام}{آیفون}{Peephole}{(پیپـ)هول}{چشمی در}`,
+  String.raw`\voccategory{Clothing}{لباس و پوشاک}
 	\vwordpair{Shirt}{شرت}{پیراهن}{T-shirt}{تی‌شرت}{تی‌شرت}
 	\vwordpair{Blouse}{بلاوز}{بلوز (زنانه)}{Sweater}{(سوـ)تر}{ژاکت بافتنی}
 	\vwordpair{Sweatshirt}{(سوتـ)شرت}{سویت‌شرت}{Hoodie}{(هودـ)ی}{هودی}
@@ -494,8 +494,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Tank top}{تنک تاپ}{رکابی}{Romper}{(رامـ)پر}{سرهمی کوتاه}
 	\vwordpair{Trench coat}{ترنچ کوت}{بارانی بلند}{Bomber jacket}{(بامـ)بر جکت}{کاپشن بمبر}
 	\vwordpair{Kimono}{کی(موـ)نو}{کیمونو}{Sarong}{سا(رانگ)}{پارچه‌پیچ (تن‌پوش)}
-	\vwordpair{Apron}{(ایـ)پرن}{پیش‌بند}{Suspenders}{سا(اسپنـ)درز}{بند شلوار},
-  String.raw\voccategory{Transportation}{حمل‌ونقل}
+	\vwordpair{Apron}{(ایـ)پرن}{پیش‌بند}{Suspenders}{سا(اسپنـ)درز}{بند شلوار}`,
+  String.raw`\voccategory{Transportation}{حمل‌ونقل}
 	\vwordpair{Car}{کار}{ماشین}{Bus}{باس}{اتوبوس}
 	\vwordpair{Truck}{تراک}{کامیون}{Van}{ون}{وانت / ون}
 	\vwordpair{Motorcycle}{(موـ)تورسایکل}{موتورسیکلت}{Bicycle}{(بایـ)سیکل}{دوچرخه}
@@ -566,8 +566,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Pedestrian}{پ(دسـ)تریان}{عابر پیاده}{Cyclist}{(سایکـ)لیست}{دوچرخه‌سوار}
 	\vwordpair{Motorist}{(موـ)تریست}{راننده اتومبیل}{Vehicle}{(ویـ)یکل}{وسیله نقلیه}
 	\vwordpair{Rush hour}{راش آوئر}{ساعت شلوغی}{Carpool}{(کارـ)پول}{هم‌سفر شدن با ماشین}
-	\vwordpair{Hitchhike}{(هیچـ)هایک}{اتواستاپ زدن}{Seat}{سیت}{صندلی},
-  String.raw\voccategory{City \& Places}{شهر و مکان‌ها}
+	\vwordpair{Hitchhike}{(هیچـ)هایک}{اتواستاپ زدن}{Seat}{سیت}{صندلی}`,
+  String.raw`\voccategory{City \& Places}{شهر و مکان‌ها}
 	\vwordpair{City}{سِتی}{شهر}{Town}{تاوْن}{شهر کوچک}
 	\vwordpair{Village}{وی(لِـ)ج}{روستا}{Suburb}{(سابـَ)رب}{حومه}
 	\vwordpair{Capital}{(کَپـِ)تال}{پایتخت}{Metropolis}{مِـ(تراپـِ)لیس}{کلان‌شهر}
@@ -637,8 +637,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Terrain}{تِـ(رِین)}{ناهمواری زمین}{Landscape}{(لَنـ)دسکِیپ}{چشم‌انداز}
 	\vwordpair{Horizon}{هَـ(رایـ)زن}{افق}{Map}{مَپ}{نقشه}
 	\vwordpair{Compass}{(کامـ)پس}{قطب‌نما}{Signpost}{(ساینـ)پوست}{تابلوی راهنما}
-	\vwordpair{Address}{اَ(درسـ)}{آدرس}{Route}{روت}{مسیر},
-  String.raw\voccategory{Weather \& Seasons}{آب‌وهوا و فصل‌ها}
+	\vwordpair{Address}{اَ(درسـ)}{آدرس}{Route}{روت}{مسیر}`,
+  String.raw`\voccategory{Weather \& Seasons}{آب‌وهوا و فصل‌ها}
 	\vwordpair{Sunny}{(سانـِ)ی}{آفتابی}{Cloudy}{(کلاوـِ)دی}{ابری}
 	\vwordpair{Rainy}{(رِیـ)نی}{بارانی}{Snowy}{(اِسنُوـ)ای}{برفی}
 	\vwordpair{Windy}{(ویندـِ)ی}{بادی}{Stormy}{(اِستورمـِ)ی}{طوفانی}
@@ -708,8 +708,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Polar}{(پُوـ)لار}{قطبی}{Continental}{کانتی(نِنـ)تال}{قاره‌ای}
 	\vwordpair{Subtropical}{ساب(تراپـ)یکال}{نیمه‌حاره‌ای}{Equator}{ای(کوِیـ)تر}{خط استوا}
 	\vwordpair{Latitude}{(لَتـ)یتود}{عرض جغرافیایی}{Longitude}{(لانـ)جیتود}{طول جغرافیایی}
-	\vwordpair{Hemisphere}{(همـ)یسفیر}{نیم‌کره}{Altitude}{(اَلـ)تیتود}{ارتفاع},
-  String.raw\voccategory{Emotions \& Personality}{احساسات و صفات شخصیتی}
+	\vwordpair{Hemisphere}{(همـ)یسفیر}{نیم‌کره}{Altitude}{(اَلـ)تیتود}{ارتفاع}`,
+  String.raw`\voccategory{Emotions \& Personality}{احساسات و صفات شخصیتی}
 	\vwordpair{Happy}{(هَپـِ)ی}{خوشحال}{Sad}{سَد}{غمگین}
 	\vwordpair{Angry}{(اَنـگـ)ری}{عصبانی}{Afraid}{اَ(فرِیـد)}{ترسیده}
 	\vwordpair{Surprised}{سر(پرایـزد)}{متعجب}{Disgusted}{دیس(گاسـتِد)}{منزجر}
@@ -779,8 +779,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Witty}{(ویتـ)ی}{بذله‌گو}{Clever}{(کلِوـ)ر}{زرنگ}
 	\vwordpair{Sincere}{سین(سیر)}{صمیمی}{Genuine}{(جِنـ)یوین}{واقعی / بی‌ریا}
 	\vwordpair{Assertive}{اَ(سرتـ)یو}{قاطع}{Passive}{(پَسـ)یو}{منفعل}
-	\vwordpair{Rebellious}{ری(بِلـ)یوس}{یاغی}{Obedient}{اُ(بیدـ)ینت}{مطیع},
-  String.raw\voccategory{Common Daily Verbs}{افعال پرکاربرد روزمره}
+	\vwordpair{Rebellious}{ری(بِلـ)یوس}{یاغی}{Obedient}{اُ(بیدـ)ینت}{مطیع}`,
+  String.raw`\voccategory{Common Daily Verbs}{افعال پرکاربرد روزمره}
 	\vwordpair{Wake up\small(woke, woken)}{وِیک آپ}{بیدار شدن}{Get up\small(got, gotten)}{گِت آپ}{از خواب بلند شدن}
 	\vwordpair{Brush}{براش}{مسواک زدن}{Wash}{واش}{شستن}
 	\vwordpair{Shower}{(شاوـ)ر}{دوش گرفتن}{Dress}{درِس}{لباس پوشیدن}
@@ -850,8 +850,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Draw\small(drew, drawn)}{درا}{نقاشی کردن (طرح)}{Paint}{پِینت}{رنگ‌آمیزی کردن}
 	\vwordpair{Sing\small(sang, sung)}{سینگ}{آواز خواندن}{Dance}{دَنس}{رقصیدن}
 	\vwordpair{Cut\small(cut, cut)}{کات}{بریدن}{Grow\small(grew, grown)}{گرُو}{رشد کردن}
-	\vwordpair{Wear\small(wore, worn)}{وِر}{پوشیدن}{Feel\small(felt, felt)}{فیل}{احساس کردن},
-  String.raw\voccategory{Shopping \& Money}{خرید و پول}
+	\vwordpair{Wear\small(wore, worn)}{وِر}{پوشیدن}{Feel\small(felt, felt)}{فیل}{احساس کردن}`,
+  String.raw`\voccategory{Shopping \& Money}{خرید و پول}
 	\vwordpair{Money}{(مانـ)ی}{پول}{Cash}{کَش}{پول نقد}
 	\vwordpair{Coin}{کوین}{سکه}{Banknote}{(بَنکـ)نوت}{اسکناس}
 	\vwordpair{Currency}{(کِرـ)نسی}{ارز / واحد پول}{Dollar}{(دالـ)ر}{دلار}
@@ -921,8 +921,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Affordable}{اَ(فورـ)دبل}{قابل‌تحمل مالی}{Overpriced}{اُوور(پرایـ)ست}{گران‌فروشی‌شده}
 	\vwordpair{Free of charge}{فری آو چارج}{رایگان}{Bulk buying}{بالک (بایـ)ینگ}{خرید عمده}
 	\vwordpair{Layaway}{(لِیـ)اَوِی}{خرید قسطی نگه‌داشته}{Markdown}{(مارکـ)داون}{کاهش قیمت}
-	\vwordpair{Markup}{(مارکـ)آپ}{افزایش قیمت}{Net worth}{نت وُرث}{ارزش خالص دارایی},
-  String.raw\voccategory{Sports \& Hobbies}{ورزش و سرگرمی}
+	\vwordpair{Markup}{(مارکـ)آپ}{افزایش قیمت}{Net worth}{نت وُرث}{ارزش خالص دارایی}`,
+  String.raw`\voccategory{Sports \& Hobbies}{ورزش و سرگرمی}
 	\vwordpair{Football\small(Soccer)}{(فوتـ)بال}{فوتبال}{Basketball}{(بَسـ)کتبال}{بسکتبال}
 	\vwordpair{Volleyball}{(والـ)یبال}{والیبال}{Tennis}{(تِنـ)یس}{تنیس}
 	\vwordpair{Baseball}{(بِیسـ)بال}{بیسبال}{Golf}{گالف}{گلف}
@@ -992,8 +992,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Softball}{(سافتـ)بال}{سافت‌بال}{Water polo}{(واتـ)ر پُلو}{واترپلو}
 	\vwordpair{Cheerleading}{(چیرـ)لیدینگ}{تشویق‌گری}{Skydiving}{(اسکایـ)دایوینگ}{چتربازی}
 	\vwordpair{Bungee jumping}{(بانجـ)ی جامپینگ}{بانجی‌جامپینگ}{Paragliding}{(پَرـ)اگلایدینگ}{پاراگلایدر}
-	\vwordpair{Zumba}{(زومـ)با}{زومبا}{Spectator}{اسپک(تِیـ)تر}{تماشاگر},
-  String.raw\voccategory{Animals}{حیوانات}
+	\vwordpair{Zumba}{(زومـ)با}{زومبا}{Spectator}{اسپک(تِیـ)تر}{تماشاگر}`,
+  String.raw`\voccategory{Animals}{حیوانات}
 	\vwordpair{Dog}{داگ}{سگ}{Cat}{کَت}{گربه}
 	\vwordpair{Puppy}{(پاپـ)ی}{توله سگ}{Kitten}{(کیتـ)ن}{بچه‌گربه}
 	\vwordpair{Rabbit}{(رَبـ)ت}{خرگوش}{Hamster}{(هَمـ)ستر}{همستر}
@@ -1068,8 +1068,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Wing}{وینگ}{بال}{Beak}{بیک}{نوک}
 	\vwordpair{Tail}{تِیل}{دم}{Horn}{هورن}{شاخ}
 	\vwordpair{Predator}{(پرِدـ)اتور}{شکارچی}{Prey}{پرِی}{طعمه}
-	\vwordpair{Herd}{هِرد}{گله چهارپا}{Nest}{نِست}{آشیانه},
-  String.raw\voccategory{School Basics}{مدرسه و تحصیل پایه}
+	\vwordpair{Herd}{هِرد}{گله چهارپا}{Nest}{نِست}{آشیانه}`,
+  String.raw`\voccategory{School Basics}{مدرسه و تحصیل پایه}
 	\vwordpair{School}{اسکول}{مدرسه}{Classroom}{(کلَسـ)روم}{کلاس درس}
 	\vwordpair{Cafeteria}{کَفِ(تیرـ)یا}{سلف‌سرویس}{Gymnasium}{جیم(نِیـ)زیوم}{سالن ورزش}
 	\vwordpair{Auditorium}{آدی(تُوـ)ریوم}{سالن آمفی‌تئاتر}{Principal's office}{(پرینـ)سیپالز (آفـ)یس}{دفتر مدیر}
@@ -1138,8 +1138,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Feedback}{(فیدـ)بک}{بازخورد}{Correction}{کُـ(رِکـ)شن}{تصحیح}
 	\vwordpair{Mistake}{می(اِستِیک)}{اشتباه}{Improve}{این(پروو)}{بهبود یافتن}
 	\vwordpair{Progress}{(پراگـ)رس}{پیشرفت}{Achievement}{اَ(چیوـ)منت}{دستاورد}
-	\vwordpair{Skill}{اسکیل}{مهارت}{Knowledge}{(نالـ)ج}{دانش},
-  String.raw\voccategory{Education \& University}{آموزش و دانشگاه}
+	\vwordpair{Skill}{اسکیل}{مهارت}{Knowledge}{(نالـ)ج}{دانش}`,
+  String.raw`\voccategory{Education \& University}{آموزش و دانشگاه}
 	\vwordpair{University}{یونی(ورـ)سیتی}{دانشگاه}{College}{(کالـ)ج}{کالج (دانشکده)}
 	\vwordpair{Department}{دی(پارتـ)منت}{دانشکده / بخش}{Undergraduate}{آندر(گرَجـ)ویت}{کارشناسی}
 	\vwordpair{Postgraduate}{پُست(گرَجـ)ویت}{تحصیلات تکمیلی}{Bachelor's degree}{(بَچـ)لرز دِـ(گری)}{مدرک کارشناسی}
@@ -1209,8 +1209,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Application deadline}{اَپلی(کِیـ)شن (دِدـ)لاین}{مهلت ثبت‌نام}{Acceptance rate}{اَک(سِپـ)تنس رِیت}{نرخ پذیرش}
 	\vwordpair{Rejection}{ری(جِکـ)شن}{رد درخواست}{Waitlist}{(وِیتـ)لیست}{لیست انتظار}
 	\vwordpair{Deferral}{دی(فِرـ)ال}{به‌تعویق‌انداختن}{Gap year}{گَپ ییر}{سال وقفه تحصیلی}
-	\vwordpair{Postdoctoral}{پُست(داکـ)تورال}{فوق‌دکترا}{Academic journal}{آکا(دِمـ)یک (جِرـ)نال}{مجله علمی},
-  String.raw\voccategory{Environment \& Nature}{محیط زیست و طبیعت}
+	\vwordpair{Postdoctoral}{پُست(داکـ)تورال}{فوق‌دکترا}{Academic journal}{آکا(دِمـ)یک (جِرـ)نال}{مجله علمی}`,
+  String.raw`\voccategory{Environment \& Nature}{محیط زیست و طبیعت}
 	\vwordpair{Ecosystem}{(اِکـ)وسیستم}{اکوسیستم}{Biodiversity}{بایودای(ورـ)سیتی}{تنوع زیستی}
 	\vwordpair{Conservation}{کانسر(وِیـ)شن}{حفاظت}{Preservation}{پرِزر(وِیـ)شن}{نگهداری}
 	\vwordpair{Sustainability}{ساستین‌اَ(بیلـ)یتی}{پایداری}{Sustainable development}{ساس(تِینـ)ابل دی(وِلـ)پمنت}{توسعه پایدار}
@@ -1280,8 +1280,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Preserve \small(v)}{پری(زِرو)}{حفظ کردن}{Conserve \small(v)}{کن(سِرو)}{صرفه‌جویی کردن}
 	\vwordpair{Pollute \small(v)}{پ(لوت)}{آلوده کردن}{Contaminate \small(v)}{کن(تَمـ)ینیت}{آلوده کردن (شیمیایی)}
 	\vwordpair{Deplete \small(v)}{دی(پلیت)}{تخلیه کردن}{Restore}{ری(اِستور)}{بازسازی کردن}
-	\vwordpair{Rehabilitate}{ری‌ه(بیلـ)یتیت}{احیا کردن}{Ecological}{اِکُ(لاجـ)یکال}{بوم‌شناختی},
-  String.raw\voccategory{Technology \& Internet}{فناوری و اینترنت}
+	\vwordpair{Rehabilitate}{ری‌ه(بیلـ)یتیت}{احیا کردن}{Ecological}{اِکُ(لاجـ)یکال}{بوم‌شناختی}`,
+  String.raw`\voccategory{Technology \& Internet}{فناوری و اینترنت}
 	\vwordpair{Computer}{کم(پیوـ)تر}{رایانه}{Laptop}{(لَپـ)تاپ}{لپ‌تاپ}
 	\vwordpair{Desktop}{(دِسـکـ)تاپ}{رایانه رومیزی}{Server}{(سِرـ)ور}{سرور}
 	\vwordpair{Processor}{(پراسـ)سسر}{پردازنده}{CPU}{سی‌پی‌یو}{واحد پردازش مرکزی}
@@ -1351,8 +1351,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Zoom out}{زوم اوت}{کوچک‌نمایی}{Copy \small(v)}{کاپی}{کپی کردن}
 	\vwordpair{Paste \small(v)}{پِیست}{جای‌گذاری کردن}{Delete \small(v)}{دی(لیت)}{حذف کردن}
 	\vwordpair{Restart \small(v)}{ری(استارت)}{راه‌اندازی مجدد}{Shut down}{شات داون}{خاموش کردن}
-	\vwordpair{Sync \small(v)}{سینک}{همگام‌سازی}{Stream \small(v)}{استریم}{پخش آنلاین کردن},
-  String.raw\voccategory{Work \& Employment}{کار و شغل}
+	\vwordpair{Sync \small(v)}{سینک}{همگام‌سازی}{Stream \small(v)}{استریم}{پخش آنلاین کردن}`,
+  String.raw`\voccategory{Work \& Employment}{کار و شغل}
 	\vwordpair{Job}{جاب}{شغل}{Career}{کَ(ریرـ)}{حرفه (مسیر شغلی)}
 	\vwordpair{Profession}{پرُ(فِشـ)ن}{حرفه تخصصی}{Occupation}{آکیو(پِیـ)شن}{شغل رسمی}
 	\vwordpair{Employee}{اِمپلوی(ای)}{کارمند}{Employer}{اِم(پلویـ)ر}{کارفرما}
@@ -1421,8 +1421,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Collaborate \small(v)}{کُ(لَبـ)ریت}{همکاری کردن}{Multitask \small(v)}{(مالـ)تی‌تَسک}{چندوظیفگی کردن}
 	\vwordpair{Meet a deadline}{میت اَ (دِدـ)لاین}{به موعد رساندن}{Take a break}{تِیک اَ بریک}{استراحت کردن}
 	\vwordpair{Work overtime}{وُرک (اُوـ)ورتایم}{اضافه‌کاری کردن}{Attend a meeting}{اَ(تِنـد) اَ (میتـ)ینگ}{در جلسه شرکت کردن}
-	\vwordpair{Lead\small(led, led)}{لید}{رهبری کردن}{Excel \small(v)}{اک(سِل)}{برتری داشتن},
-  String.raw\voccategory{Health \& Medicine -- Advanced}{سلامت و پزشکی (پیشرفته)}
+	\vwordpair{Lead\small(led, led)}{لید}{رهبری کردن}{Excel \small(v)}{اک(سِل)}{برتری داشتن}`,
+  String.raw`\voccategory{Health \& Medicine -- Advanced}{سلامت و پزشکی (پیشرفته)}
 	\vwordpair{Public health}{(پابـ)لیک هلث}{بهداشت عمومی}{Epidemic}{اِپی(دِمـ)یک}{اپیدمی}
 	\vwordpair{Pandemic}{پَن(دِمـ)یک}{پاندمی}{Endemic}{اِن(دِمـ)یک}{بومی (بیماری)}
 	\vwordpair{Outbreak}{(اوتـ)بریک}{شیوع ناگهانی}{Epidemiology}{اِپی‌دیمی(آلـ)جی}{همه‌گیرشناسی}
@@ -1492,8 +1492,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{MRI}{ام‌آر‌آی}{ام‌آرآی}{CT scan}{سی‌تی اسکن}{سی‌تی‌اسکن}
 	\vwordpair{Ultrasound}{(آلترا)ساوند}{سونوگرافی}{Genetic testing}{جِ(نِتـ)یک (تِسـ)تینگ}{آزمایش ژنتیک}
 	\vwordpair{Blood test}{بلاد تِست}{آزمایش خون}{Vital signs}{(وایـ)تال ساینز}{علائم حیاتی}
-	\vwordpair{Recovery rate}{ری(کاوـ)ری رِیت}{نرخ بهبودی}{Health awareness}{هلث اَ(وِرـ)نس}{آگاهی سلامت},
-  String.raw\voccategory{Economy \& Business}{اقتصاد و تجارت}
+	\vwordpair{Recovery rate}{ری(کاوـ)ری رِیت}{نرخ بهبودی}{Health awareness}{هلث اَ(وِرـ)نس}{آگاهی سلامت}`,
+  String.raw`\voccategory{Economy \& Business}{اقتصاد و تجارت}
 	\vwordpair{Economy}{ای(کانـ)امی}{اقتصاد}{Economics}{اِکا(نامـ)یکس}{علم اقتصاد}
 	\vwordpair{GDP}{جی‌دی‌پی}{تولید ناخالص داخلی}{GNP}{جی‌ان‌پی}{تولید ناخالص ملی}
 	\vwordpair{Deflation}{دی(فلِیـ)شن}{کاهش تورم}{Recession}{ری(سِشـ)ن}{رکود اقتصادی}
@@ -1563,8 +1563,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Expenditure}{اکس(پِنـ)دیچر}{مخارج}{Investment}{این(وِسـت)منت}{سرمایه‌گذاری}
 	\vwordpair{Return on investment}{ری(تِرن) آن این(وِسـت)منت}{بازده سرمایه‌گذاری}{Risk assessment}{ریسک اَ(سِسـ)منت}{ارزیابی ریسک}
 	\vwordpair{Financial statement}{فای(نَنـ)شال (اِسـتِیتـ)منت}{صورت مالی}{Economic policy}{اِکُ(نامـ)یک (پالـ)سی}{سیاست اقتصادی}
-	\vwordpair{Wage gap}{وِیج گَپ}{شکاف دستمزد}{Business cycle}{(بیزـ)نس (سایـ)کل}{چرخه تجاری},
-  String.raw\voccategory{Society \& Culture}{جامعه و فرهنگ}
+	\vwordpair{Wage gap}{وِیج گَپ}{شکاف دستمزد}{Business cycle}{(بیزـ)نس (سایـ)کل}{چرخه تجاری}`,
+  String.raw`\voccategory{Society \& Culture}{جامعه و فرهنگ}
 	\vwordpair{Society}{سُ(سایـ)تی}{جامعه}{Culture}{(کالـ)چر}{فرهنگ}
 	\vwordpair{Subculture}{(سابـ)کالچر}{خرده‌فرهنگ}{Tradition}{ترَ(دیشـ)ن}{سنت}
 	\vwordpair{Custom}{(کاسـ)تم}{رسم}{Heritage}{(هِرـ)یتیج}{میراث}
@@ -1634,8 +1634,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Assimilate \small(v)}{اَ(سیمـ)یلیت}{همگون شدن}{Integrate \small(v)}{(اینـ)تِگریت}{ادغام شدن}
 	\vwordpair{Advocate \small(v)}{(اَدـ)ووکیت}{حمایت کردن}{Protest \small(v)}{پرُ(تِست)}{اعتراض کردن}
 	\vwordpair{Segregate \small(v)}{(سِگـ)ریگیت}{تفکیک کردن}{Conform \small(v)}{کن(فورم)}{همنوا شدن}
-	\vwordpair{Colonize \small(v)}{(کالـ)نایز}{مستعمره کردن}{Empower \small(v)}{اِم(پاوـ)ر}{توانمند کردن},
-  String.raw\voccategory{Media \& Communication}{رسانه و ارتباطات}
+	\vwordpair{Colonize \small(v)}{(کالـ)نایز}{مستعمره کردن}{Empower \small(v)}{اِم(پاوـ)ر}{توانمند کردن}`,
+  String.raw`\voccategory{Media \& Communication}{رسانه و ارتباطات}
 	\vwordpair{Media}{(میدـ)یا}{رسانه}{Mass media}{مَس (میدـ)یا}{رسانه‌های همگانی}
 	\vwordpair{News media}{نیوز (میدـ)یا}{رسانه‌های خبری}{Print media}{پرینت (میدـ)یا}{رسانه چاپی}
 	\vwordpair{Broadcast media}{(براـدـ)کست (میدـ)یا}{رسانه پخشی}{Digital media}{(دیجـ)یتال (میدـ)یا}{رسانه دیجیتال}
@@ -1705,8 +1705,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Media literacy}{(میدـ)یا (لیتـ)رسی}{سواد رسانه‌ای}{Gatekeeping}{(گِیتـ)کیپینگ}{دروازه‌بانی خبری}
 	\vwordpair{Sensationalism}{سِن(سِیـ)شنالیزم}{غوغاسالاری خبری}{Tabloid journalism}{(تَبـ)لوید (جِرـ)نالیزم}{روزنامه‌نگاری زرد}
 	\vwordpair{Newsroom}{(نیوزـ)روم}{تحریریه}{Byline}{(بایـ)لاین}{نام نویسنده مقاله}
-	\vwordpair{Retraction}{ری(تراکـ)شن}{پس‌گرفتن خبر}{Exclusive \small(story)}{اکس(کلوـ)سیو}{خبر انحصاری},
-  String.raw\voccategory{Government \& Politics}{دولت و سیاست}
+	\vwordpair{Retraction}{ری(تراکـ)شن}{پس‌گرفتن خبر}{Exclusive \small(story)}{اکس(کلوـ)سیو}{خبر انحصاری}`,
+  String.raw`\voccategory{Government \& Politics}{دولت و سیاست}
 	\vwordpair{Government}{(گاوـ)رنمنت}{دولت}{State}{اسـتِیت}{ایالت / دولت}
 	\vwordpair{Nation}{(نِیـ)شن}{ملت}{Federal government}{(فِدـ)رال (گاوـ)رنمنت}{دولت فدرال}
 	\vwordpair{Local government}{(لُوـ)کال (گاوـ)رنمنت}{دولت محلی}{Municipal government}{میو(نیسـ)یپال (گاوـ)رنمنت}{شهرداری}
@@ -1776,8 +1776,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Petition}{پِ(تیشـ)ن}{دادخواست}{Filibuster}{(فیلـ)یباستر}{وقت‌کشی پارلمانی}
 	\vwordpair{Gerrymandering}{(جرـ)یمَندرینگ}{دستکاری حوزه انتخابیه}{Swing state}{سوینگ اسـتِیت}{ایالت مردد}
 	\vwordpair{Grassroots campaign}{(گراسـ)روتس کَم(پِین)}{کمپین مردمی}{Political rally}{پُ(لیتـ)یکال(رَلـ)ی}{تجمع سیاسی}
-	\vwordpair{Whistleblower}{(ویسـ)ل‌بلور}{افشاگر}{Political asylum}{پُ(لیتـ)یکال اَ(سایـ)لم}{پناهندگی سیاسی},
-  String.raw\voccategory{Crime \& Law}{جرم و قانون}
+	\vwordpair{Whistleblower}{(ویسـ)ل‌بلور}{افشاگر}{Political asylum}{پُ(لیتـ)یکال اَ(سایـ)لم}{پناهندگی سیاسی}`,
+  String.raw`\voccategory{Crime \& Law}{جرم و قانون}
 	\vwordpair{Crime}{کرایم}{جرم}{Criminal}{(کریمـ)ینال}{مجرم}
 	\vwordpair{Felony}{(فِلـ)انی}{جنایت سنگین}{Misdemeanor}{میسدِ(میـ)نر}{جنحه سبک}
 	\vwordpair{Offense}{اُ(فِنـس)}{تخلف}{Theft}{ثفت}{سرقت}
@@ -1847,8 +1847,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Lawful}{(لاـ)فول}{مشروع}{Innocent}{(اینـ)سنت}{بی‌گناه}
 	\vwordpair{Culpable}{(کالـ)پابل}{مقصر}{Liable}{(لایـ)ابل}{مسئول حقوقی}
 	\vwordpair{Negligence}{(نِگـ)لیجنس}{سهل‌انگاری}{Vigilante}{ویجی(لَنـ)تی}{عدالت‌خواه خودسر}
-	\vwordpair{Fugitive}{(فیوـ)جیتیو}{متواری}{Manhunt}{(مَنـ)هانت}{تعقیب و گریز پلیسی},
-  String.raw\voccategory{Travel \& Tourism -- Academic}{سفر و گردشگری (آکادمیک)}
+	\vwordpair{Fugitive}{(فیوـ)جیتیو}{متواری}{Manhunt}{(مَنـ)هانت}{تعقیب و گریز پلیسی}`,
+  String.raw`\voccategory{Travel \& Tourism -- Academic}{سفر و گردشگری (آکادمیک)}
 	\vwordpair{Tourism}{(تُوـ)ریزم}{گردشگری}{Tourist}{(تُوـ)ریست}{گردشگر}
 	\vwordpair{Traveler}{(ترَوـ)لر}{مسافر}{Backpacker}{(بَکـ)پکر}{کوله‌گرد}
 	\vwordpair{Sightseeing}{(سایتـ)سی‌اینگ}{دیدنی‌گردی}{Excursion}{اکس(کِرـ)ژن}{گردش کوتاه}
@@ -1918,8 +1918,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Acclimate \small(v)}{(اَکـ)لیمیت}{سازگار شدن با محیط}{Venture \small(v)}{(وِنـ)چر}{دل به دریا زدن}
 	\vwordpair{Trek \small(v)}{ترک}{پیمودن مسیر طولانی}{Wander off}{(واندـ)ر آف}{سرگردان شدن}
 	\vwordpair{Get lost\small(got lost, got lost)}{گِت لاست}{گم شدن}{Miss a flight}{میس اَ فلایت}{پرواز را از دست دادن}
-	\vwordpair{Catch a flight\small(caught, caught)}{کَچ اَ فلایت}{به پرواز رسیدن}{Extend a visa}{اکس(تِنـد) اَ ویزا}{تمدید ویزا},
-  String.raw\voccategory{Science \& Research}{علم و پژوهش}
+	\vwordpair{Catch a flight\small(caught, caught)}{کَچ اَ فلایت}{به پرواز رسیدن}{Extend a visa}{اکس(تِنـد) اَ ویزا}{تمدید ویزا}`,
+  String.raw`\voccategory{Science \& Research}{علم و پژوهش}
 	\vwordpair{Science}{(سایـ)نس}{علم}{Scientist}{(سایـ)نتیست}{دانشمند}
 	\vwordpair{Scientific method}{سایِن(تیفـ)یک (مِثـ)د}{روش علمی}{Observation}{آبزر(وِیـ)شن}{مشاهده}
 	\vwordpair{Experiment}{اکس(پِرـ)یمنت}{آزمایش}{Theory}{(ثیـ)ری}{نظریه}
@@ -1989,8 +1989,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Classify \small(v)}{(کلَسـ)یفای}{طبقه‌بندی کردن}{Categorize \small(v)}{(کَتـ)گورایز}{دسته‌بندی کردن}
 	\vwordpair{Simulate \small(v)}{(سیمـ)یولیت}{شبیه‌سازی کردن}{Model \small(v)}{(مادـ)ل}{مدل‌سازی کردن}
 	\vwordpair{Predict \small(v)}{پری(دیکـت)}{پیش‌بینی کردن}{Conclude \small(v)}{کن(کلوـد)}{نتیجه‌گیری کردن}
-	\vwordpair{Innovate \small(v)}{(اینـ)اویت}{نوآوری کردن}{Discover \small(v)}{دیس(کاوـ)ر}{کشف کردن},
-  String.raw\voccategory{Urban Planning \& Architecture}{شهرسازی و معماری}
+	\vwordpair{Innovate \small(v)}{(اینـ)اویت}{نوآوری کردن}{Discover \small(v)}{دیس(کاوـ)ر}{کشف کردن}`,
+  String.raw`\voccategory{Urban Planning \& Architecture}{شهرسازی و معماری}
 	\vwordpair{Urban planning}{(اُرـ)بن (پلَنـ)ینگ}{برنامه‌ریزی شهری}{City planning}{سیتی (پلَنـ)ینگ}{برنامه‌ریزی شهری}
 	\vwordpair{Zoning}{(زُونـ)ینگ}{منطقه‌بندی}{Land use}{لَند یوز}{کاربری زمین}
 	\vwordpair{Residential zone}{رِزی(دِنـ)شال زُون}{منطقه مسکونی}{Commercial zone}{کُ(مِرـ)شال زُون}{منطقه تجاری}
@@ -2060,8 +2060,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Zone \small(v)}{زُون}{منطقه‌بندی کردن}{Develop\small(v)}{دی(وِلـ)اپ}{توسعه دادن}
 	\vwordpair{Redevelop \small(v)}{ری‌دی(وِلـ)اپ}{بازتوسعه دادن}{Gentrify \small(v)}{(جِنـ)تریفای}{نوزایی طبقاتی کردن}
 	\vwordpair{Sprawl \small(v)}{اسپرال}{گسترش بی‌رویه یافتن}{Retrofit \small(v)}{(رِتـ)روفیت}{نوسازی فنی کردن}
-	\vwordpair{Landscape \small(v)}{(لَنـد)اسکیپ}{محوطه‌سازی کردن}{Blend in\small(with surroundings)}{بلِند این}{هماهنگ شدن با محیط},
-  String.raw\voccategory{Academic Adjectives \& Verbs}{صفات و افعال آکادمیک پرکاربرد}
+	\vwordpair{Landscape \small(v)}{(لَنـد)اسکیپ}{محوطه‌سازی کردن}{Blend in\small(with surroundings)}{بلِند این}{هماهنگ شدن با محیط}`,
+  String.raw`\voccategory{Academic Adjectives \& Verbs}{صفات و افعال آکادمیک پرکاربرد}
 	\vwordpair{Argue}{(آرـ)گیو}{استدلال کردن}{Claim \small(v)}{کلِیم}{ادعا کردن}
 	\vwordpair{Assert}{اَ(سِرت)}{اظهار قاطع کردن}{Contend}{کن(تِنـد)}{مدعی بودن}
 	\vwordpair{Suggest}{سَ(جِسـت)}{پیشنهاد دادن}{Indicate}{(اینـ)دیکیت}{نشان دادن}
@@ -2131,8 +2131,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Negligible}{(نِگـ)لیجبل}{ناچیز}{Excessive}{اک(سِسـ)یو}{بیش‌ازحد}
 	\vwordpair{Ample}{(اَمـ)پل}{فراوان}{Scarce}{اسکِرس}{کمیاب}
 	\vwordpair{Sufficient}{سَ(فیشـ)نت}{کافی}{Insufficient}{این‌سَ(فیشـ)نت}{ناکافی}
-	\vwordpair{Prone to}{پرُون تو}{مستعد به}{Susceptible to}{سَ(سِپـ)تیبل تو}{آسیب‌پذیر در برابر},
-  String.raw\voccategory{Linking Words \& Connectors}{کلمات ربط و پیوند‌دهنده}
+	\vwordpair{Prone to}{پرُون تو}{مستعد به}{Susceptible to}{سَ(سِپـ)تیبل تو}{آسیب‌پذیر در برابر}`,
+  String.raw`\voccategory{Linking Words \& Connectors}{کلمات ربط و پیوند‌دهنده}
 	\vwordpair{Furthermore}{(فِرـ)ذرمور}{علاوه‌براین}{Moreover}{مور(اُوـ)ور}{علاوه‌براین}
 	\vwordpair{In addition}{این اَ(دیشـ)ن}{در ضمن}{Additionally}{اَ(دیشـ)نلی}{به‌علاوه}
 	\vwordpair{Besides}{بی(سایـدز)}{جدا از این}{As well as}{اَز وِل اَز}{همچنین}
@@ -2202,8 +2202,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{In general}{این (جِنـ)رال}{به‌طور عمومی}{Generally speaking}{(جِنـ)رلی اسـپیکـینگ}{به‌طور کلی}
 	\vwordpair{On average}{آن (اَوـ)ریج}{به‌طور متوسط}{Interestingly}{(اینـ)ترستینگلی}{جالب اینکه}
 	\vwordpair{Surprisingly}{سر(پرایـ)زینگلی}{شگفت‌انگیز اینکه}{Unfortunately}{آن(فورـ)چونتلی}{متأسفانه}
-	\vwordpair{Fortunately}{(فورـ)چونتلی}{خوشبختانه}{Ironically}{آی(رانـ)یکلی}{عجیب اینکه},
-  String.raw\voccategory{Natural Disasters \& Global Issues}{بلایای طبیعی و مسائل جهانی}
+	\vwordpair{Fortunately}{(فورـ)چونتلی}{خوشبختانه}{Ironically}{آی(رانـ)یکلی}{عجیب اینکه}`,
+  String.raw`\voccategory{Natural Disasters \& Global Issues}{بلایای طبیعی و مسائل جهانی}
 	\vwordpair{Earthquake}{(اِرثـ)کوِیک}{زلزله}{Tremor}{(ترِمـ)ور}{لرزش}
 	\vwordpair{Aftershock}{(اَفـتـرـ)شاک}{پس‌لرزه}{Epicenter}{(اِپـ)ی‌سنتر}{کانون زلزله}
 	\vwordpair{Richter scale}{(ریکـ)تر اسکِیل}{مقیاس ریشتر}{Tsunami}{سو(ناـ)می}{سونامی}
@@ -2273,8 +2273,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Donation drive}{دُ(نِیـ)شن درایو}{کمپین جمع‌آوری کمک}{Volunteer effort}{والان(تیر) (اِفـ)رت}{تلاش داوطلبانه}
 	\vwordpair{Community resilience}{کَـ(میوـ)نیتی ری(زیلـ)ینس}{تاب‌آوری جامعه}{Rebuilding effort}{ری(بیلـ)دینگ (اِفـ)رت}{تلاش بازسازی}
 	\vwordpair{Root cause}{روت کاز}{علت ریشه‌ای}{Underlying issue}{آندر(لایـ)اینگ (ایـ)شو}{مسئله زیربنایی}
-	\vwordpair{Global solidarity}{(گلُوـ)بال سُ(لیدـ)اریتی}{همبستگی جهانی}{Crisis alert}{(کرایـ)سیس اَ(لِرت)}{هشدار بحران},
-  String.raw\voccategory{History \& War}{تاریخ و جنگ}
+	\vwordpair{Global solidarity}{(گلُوـ)بال سُ(لیدـ)اریتی}{همبستگی جهانی}{Crisis alert}{(کرایـ)سیس اَ(لِرت)}{هشدار بحران}`,
+  String.raw`\voccategory{History \& War}{تاریخ و جنگ}
 	\vwordpair{History}{(هیسـ)تری}{تاریخ}{Historian}{هیس(تُوـ)ریان}{مورخ}
 	\vwordpair{Historical}{هیس(تارـ)یکال}{تاریخی}{Ancient history}{(اِینـ)شنت (هیسـ)تری}{تاریخ باستان}
 	\vwordpair{Medieval history}{می(دیوـ)ال (هیسـ)تری}{تاریخ قرون‌وسطی}{Modern history}{(مادـ)رن (هیسـ)تری}{تاریخ معاصر}
@@ -2344,8 +2344,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Commemorate}{کُ(مِمـ)ریت}{گرامیداشتن}{Anniversary}{انی(وِرـ)سری}{سالگرد}
 	\vwordpair{War memorial}{وار مِ(مُوـ)ریال}{یادبود جنگ}{Anachronism}{اَ(نَکـ)رونیزم}{نابه‌جایی زمانی}
 	\vwordpair{Milestone \small(historical)}{(مایـل)استون}{نقطه عطف تاریخی}{Empire's fall}{(اِمـ)پایرز فال}{سقوط امپراتوری}
-	\vwordpair{Ancient ruins}{(اِینـ)شنت (روـ)اینز}{ویرانه‌های باستانی}{Historical significance}{هیس(تارـ)یکال سیگ(نیفـ)یکنس}{اهمیت تاریخی},
-  String.raw\voccategory{Arts, Music \& Literature}{هنر، موسیقی و ادبیات}
+	\vwordpair{Ancient ruins}{(اِینـ)شنت (روـ)اینز}{ویرانه‌های باستانی}{Historical significance}{هیس(تارـ)یکال سیگ(نیفـ)یکنس}{اهمیت تاریخی}`,
+  String.raw`\voccategory{Arts, Music \& Literature}{هنر، موسیقی و ادبیات}
 	\vwordpair{Fine art}{فاین آرت}{هنر زیبا}{Sculpture}{(اسکالپـ)چر}{مجسمه‌سازی}
 	\vwordpair{Sketch}{اسکِچ}{طرح اولیه}{Canvas}{(کَنـ)وس}{بوم نقاشی}
 	\vwordpair{Palette}{(پَلـ)ت}{پالت رنگ}{Brushstroke}{(براشـ)استروک}{قلم‌مو‌زنی}
@@ -2415,8 +2415,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Appreciate \small(v)}{اَ(پریـ)شیت}{قدردانی کردن}{Inspire \small(v)}{این(اسـپایـر)}{الهام بخشیدن}
 	\vwordpair{Evoke \small(v)}{ای(وُوک)}{برانگیختن}{Convey \small(v)}{کن(وِی)}{انتقال دادن پیام}
 	\vwordpair{Render \small(artistically)}{(رِنـ)در}{به‌تصویر کشیدن هنری}{Exhibit \small(v)}{اگ(زیبـ)یت}{به‌نمایش گذاشتن}
-	\vwordpair{Aesthetic}{اِس(ثِتـ)یک}{زیبایی‌شناختی}{Genre-defining}{ژانر-دی(فایـ)نینگ}{سبک‌ساز},
-  String.raw\voccategory{Psychology \& Mind}{روان‌شناسی و ذهن}
+	\vwordpair{Aesthetic}{اِس(ثِتـ)یک}{زیبایی‌شناختی}{Genre-defining}{ژانر-دی(فایـ)نینگ}{سبک‌ساز}`,
+  String.raw`\voccategory{Psychology \& Mind}{روان‌شناسی و ذهن}
 	\vwordpair{Cognition}{کاگ(نیشـ)ن}{شناخت}{Cognitive}{(کاگـ)نیتیو}{شناختی}
 	\vwordpair{Attention}{اَ(تِنـ)شن}{توجه}{Short-term memory}{شورت-تِرم (مِمـ)ری}{حافظه کوتاه‌مدت}
 	\vwordpair{Long-term memory}{لانگ-تِرم (مِمـ)ری}{حافظه بلندمدت}{Working memory}{(وُرکـ)ینگ (مِمـ)ری}{حافظه فعال}
@@ -2486,8 +2486,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Repress \small(v)}{ری(پرِس)}{سرکوب ناخودآگاه کردن}{Cope \small(v)}{کُوپ}{کنار آمدن}
 	\vwordpair{Empathize \small(v)}{(اِمـ)پاثایز}{همدلی کردن}{Internalize \small(v)}{این(تِرـ)نالایز}{درونی کردن}
 	\vwordpair{Trigger \small(psychological, v)}{(تریگـ)ر}{برانگیختن روانی}{Overanalyze \small(v)}{اُوور(اَنـ)الایز}{بیش‌ازحد تحلیل کردن}
-	\vwordpair{Rewire \small(the brain)}{ری(وایـ)ر}{بازسیم‌کشی مغز}{Introspect \small(v)}{این‌ترُ(اسـپِکـت)}{درون‌نگری کردن},
-  String.raw\voccategory{Agriculture \& Farming}{کشاورزی}
+	\vwordpair{Rewire \small(the brain)}{ری(وایـ)ر}{بازسیم‌کشی مغز}{Introspect \small(v)}{این‌ترُ(اسـپِکـت)}{درون‌نگری کردن}`,
+  String.raw`\voccategory{Agriculture \& Farming}{کشاورزی}
 	\vwordpair{Agriculture}{(اَگـ)ریکالچر}{کشاورزی}{Farming}{(فارمـ)ینگ}{زراعت}
 	\vwordpair{Farm}{فارم}{مزرعه}{Farmer}{(فارمـ)ر}{کشاورز}
 	\vwordpair{Agricultural}{اَگری(کالـ)چرال}{کشاورزی (صفت)}{Farmland}{(فارمـ)لند}{زمین کشاورزی}
@@ -2557,8 +2557,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Slaughter \small(v)}{(اسـلاـ)تر}{ذبح کردن}{Sow a seed}{سُو اَ سید}{بذر پاشیدن}
 	\vwordpair{Plant a crop}{پلَنت اَ کراپ}{کاشتن محصول}{Grow crops}{گرُو کراپس}{محصول رشد دادن}
 	\vwordpair{Feed livestock}{فید (لایوـ)استاک}{دام را تغذیه کردن}{Tend a farm}{تِند اَ فارم}{رسیدگی به مزرعه}
-	\vwordpair{Store grain}{استور گرِین}{ذخیره غله}{Distribute produce}{دیس(تریبـ)یوت (پرادـ)یوس}{توزیع محصول},
-  String.raw\voccategory{Space \& Astronomy}{فضا و نجوم}
+	\vwordpair{Store grain}{استور گرِین}{ذخیره غله}{Distribute produce}{دیس(تریبـ)یوت (پرادـ)یوس}{توزیع محصول}`,
+  String.raw`\voccategory{Space \& Astronomy}{فضا و نجوم}
 	\vwordpair{Star}{استار}{ستاره}{Planet}{(پلَنـ)ت}{سیاره}
 	\vwordpair{Dwarf planet}{دوارف (پلَنـ)ت}{سیاره کوتوله}{Asteroid}{(اَسـ)تروید}{سیارک}
 	\vwordpair{Comet}{(کامـ)ت}{دنباله‌دار}{Meteor}{(میتـ)یور}{شهاب}
@@ -2628,8 +2628,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Detect \small(v)}{دی(تِکـت)}{شناسایی کردن}{Track \small(v)}{ترَک}{ردیابی کردن}
 	\vwordpair{Navigate \small(v)}{(نَوـ)یگیت}{مسیریابی کردن}{Propel \small(v)}{پرُ(پِل)}{به‌جلو راندن}
 	\vwordpair{Reenter\small(the atmosphere)}{ری‌(اِنـ)تر}{بازگشت به جو}{Rise\small(rose, risen)\small(star/moon)}{رایز}{طلوع کردن}
-	\vwordpair{Set\small(set, set)\small(star/sun)}{سِت}{غروب کردن}{Shine\small(shone, shone)}{شاین}{درخشیدن},
-  String.raw\voccategory{Banking \& Finance}{بانکداری و مسائل مالی}
+	\vwordpair{Set\small(set, set)\small(star/sun)}{سِت}{غروب کردن}{Shine\small(shone, shone)}{شاین}{درخشیدن}`,
+  String.raw`\voccategory{Banking \& Finance}{بانکداری و مسائل مالی}
 	\vwordpair{Bank}{بَنک}{بانک}{Banking}{(بَنکـ)ینگ}{بانکداری}
 	\vwordpair{Commercial bank}{کُ(مِرـ)شال بَنک}{بانک تجاری}{Investment bank}{این(وِسـت)منت بَنک}{بانک سرمایه‌گذاری}
 	\vwordpair{Retail banking}{(ریـ)تِیل (بَنکـ)ینگ}{بانکداری خرد}{Online banking}{آن‌لاین (بَنکـ)ینگ}{بانکداری آنلاین}
@@ -2699,8 +2699,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Repay \small(v)}{ری(پِی)}{بازپرداخت کردن}{Default\small(v)\small(on a loan)}{دی(فالت)}{نکول کردن}
 	\vwordpair{Accrue \small(interest)}{اَ(کرو)}{انباشته شدن سود}{Invest \small(v)}{این(وِسـت)}{سرمایه‌گذاری کردن}
 	\vwordpair{Save money}{سِیو (مانـ)ی}{پول پس‌انداز کردن}{Charge interest}{چارج (این‌ـ)ترست}{سود دریافت کردن}
-	\vwordpair{Pay off \small(a debt)}{پِی آف}{بدهی را کامل پرداخت کردن}{Balance a budget}{(بَلـ)نس اَ (باجـ)ت}{بودجه را متعادل کردن},
-  String.raw\voccategory{Advertising \& Marketing}{تبلیغات و بازاریابی}
+	\vwordpair{Pay off \small(a debt)}{پِی آف}{بدهی را کامل پرداخت کردن}{Balance a budget}{(بَلـ)نس اَ (باجـ)ت}{بودجه را متعادل کردن}`,
+  String.raw`\voccategory{Advertising \& Marketing}{تبلیغات و بازاریابی}
 	\vwordpair{Marketing strategy}{(مارکـ)تینگ (اسـتَرـ)اتجی}{استراتژی بازاریابی}{Marketing plan}{(مارکـ)تینگ پلَن}{برنامه بازاریابی}
 	\vwordpair{Marketing mix}{(مارکـ)تینگ میکس}{آمیخته بازاریابی}{Four Ps}{فور پیز}{چهار پی بازاریابی}
 	\vwordpair{Product\small(marketing)}{(پرادـ)اکت}{محصول}{Price\small(marketing)}{پرایس}{قیمت}
@@ -2770,8 +2770,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Promote \small(v)}{پرُ(مُوت)}{ترویج کردن}{Sponsor \small(v)}{(اسـپانـ)سر}{اسپانسر شدن}
 	\vwordpair{Target \small(v, an audience)}{(تارـ)گت}{هدف قرار دادن}{Position\small(a product, v)}{پُ(زیشـ)ن}{جایگاه‌یابی کردن}
 	\vwordpair{Rebrand \small(v)}{ری(برَنـد)}{تغییر برند دادن}{Go viral\small(went, gone)}{گُو (وایـ)رال}{وایرال شدن}
-	\vwordpair{Boost sales}{بوست سِیلز}{فروش را افزایش دادن}{Build brand loyalty}{بیلد برَند (لویـ)التی}{وفاداری برند ساختن},
-  String.raw\voccategory{Directions \& Prepositions of Place}{جهت‌ها و حروف‌اضافه مکانی}
+	\vwordpair{Boost sales}{بوست سِیلز}{فروش را افزایش دادن}{Build brand loyalty}{بیلد برَند (لویـ)التی}{وفاداری برند ساختن}`,
+  String.raw`\voccategory{Directions \& Prepositions of Place}{جهت‌ها و حروف‌اضافه مکانی}
 	\vwordpair{North}{نورث}{شمال}{South}{ساوث}{جنوب}
 	\vwordpair{East}{ایست}{شرق}{West}{وست}{غرب}
 	\vwordpair{Northeast}{نورث(ایسـ)ت}{شمال‌شرقی}{Northwest}{نورث(وسـ)ت}{شمال‌غربی}
@@ -2841,8 +2841,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Destination}{دستی(نِیـ)شن}{مقصد}{Waypoint}{(وِیـ)پوینت}{نقطه میانی مسیر}
 	\vwordpair{Landmark}{(لَنـد)مارک}{نشانه شاخص}{Signpost}{(ساینـ)پُست}{تابلوی راهنما}
 	\vwordpair{Direction \small(n)}{دای(رِکـ)شن}{جهت}{Orient \small(v)}{(اُرـ)یینت}{جهت‌یابی کردن}
-	\vwordpair{Navigate \small(v)}{(نَوـ)یگیت}{مسیریابی کردن}{Locate \small(v)}{لُو(کِیت)}{مکان‌یابی کردن},
-  String.raw\voccategory{Idioms \& Common Expressions}{اصطلاحات و عبارات رایج}
+	\vwordpair{Navigate \small(v)}{(نَوـ)یگیت}{مسیریابی کردن}{Locate \small(v)}{لُو(کِیت)}{مکان‌یابی کردن}`,
+  String.raw`\voccategory{Idioms \& Common Expressions}{اصطلاحات و عبارات رایج}
 	\vwordpair{Break the ice}{برِیک ذِ آیس}{یخ را شکستن (شروع صمیمی مکالمه)}{Hit the books}{هیت ذِ بوکس}{به‌شدت درس خواندن}
 	\vwordpair{Under the weather}{آندر ذِ وِذِر}{کسل / بیمار}{Once in a blue moon}{وانس این اِ بلو مون}{خیلی به‌ندرت}
 	\vwordpair{Piece of cake}{پیس آو کِیک}{کار بسیار آسان}{Cost an arm and a leg}{کاست اَن آرم اَند اِ لگ}{خیلی گران بودن}
@@ -2912,8 +2912,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Give someone a hand}{گیو سامون اِ هَند}{به کسی کمک کردن}{Go with the flow}{گُو ویث ذِ فلو}{همراه جریان پیش رفتن}
 	\vwordpair{Hang by a thread}{هَنگ بای اِ ثرد}{در وضعیت بحرانی}{Have a change of heart}{هَو اِ چِینج آو هارت}{تغییر نظر ناگهانی}
 	\vwordpair{In the long run}{این ذِ لانگ ران}{در درازمدت}{On cloud nine}{آن کلاود ناین}{بسیار خوشحال}
-	\vwordpair{Peace of mind}{پیس آو مایند}{آرامش خاطر}{The tip of the iceberg}{ذِ تیپ آو ذی آیسبرگ}{فقط بخش کوچکی از مشکل بزرگ},
-  String.raw\voccategory{Phrasal Verbs}{افعال دوکلمه‌ای}
+	\vwordpair{Peace of mind}{پیس آو مایند}{آرامش خاطر}{The tip of the iceberg}{ذِ تیپ آو ذی آیسبرگ}{فقط بخش کوچکی از مشکل بزرگ}`,
+  String.raw`\voccategory{Phrasal Verbs}{افعال دوکلمه‌ای}
 	\vwordpair{Look into}{لوک (اینـ)تو}{بررسی کردن}{Look up}{لوک آپ}{جستجو کردن}
 	\vwordpair{Look after}{لوک (اَفـ)تر}{مراقبت کردن از}{Look forward to}{لوک (فورـ)وارد تو}{مشتاقانه منتظر بودن}
 	\vwordpair{Look down on}{لوک داون آن}{تحقیر کردن}{Look out}{لوک اوت}{مراقب بودن}
@@ -2983,8 +2983,8 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{Send off \small(sent, sent)}{سِند آف}{بدرقه کردن / پست کردن}{Wake up \small(woke, woken)}{وِیک آپ}{بیدار شدن}
 	\vwordpair{Ease off}{ایز آف}{کم شدن فشار}{Ease into}{ایز (اینـ)تو}{به‌آرامی وارد شدن}
 	\vwordpair{Blow up \small(blew, blown)}{بلُو آپ}{منفجر شدن}{Warm up}{وارم آپ}{گرم کردن بدن}
-	\vwordpair{Cool down}{کول داون}{خنک شدن / آرام شدن}{Ward off}{وارد آف}{دفع کردن},
-  String.raw\voccategory{Question Words \& Function Words}{کلمات پرسشی و کلمات ابزاری}
+	\vwordpair{Cool down}{کول داون}{خنک شدن / آرام شدن}{Ward off}{وارد آف}{دفع کردن}`,
+  String.raw`\voccategory{Question Words \& Function Words}{کلمات پرسشی و کلمات ابزاری}
 	\vwordpair{Who}{هو}{چه کسی}{What}{وات}{چه}
 	\vwordpair{When}{ون}{کی}{Where}{وِر}{کجا}
 	\vwordpair{Why}{وای}{چرا}{How}{هاو}{چطور}
@@ -3054,5 +3054,5 @@ export const BUNDLED_CATEGORIES: string[] = [
 	\vwordpair{As \small(conjunction)}{اَز}{همان‌طور که}{As soon as}{اَز سون اَز}{به‌محض اینکه}
 	\vwordpair{As well}{اَز وِل}{همچنین}{Either...or}{(ایـذ)ر...اُر}{یا...یا}
 	\vwordpair{Neither...nor}{(نایـذ)ر...نُر}{نه...نه}{Both...and}{بُوث...اَند}{هم...هم}
-	\vwordpair{Whichever}{ویچ(اِوـ)ر}{هرکدام که}{Whatever}{وات(اِوـ)ر}{هرچه که},
+	\vwordpair{Whichever}{ویچ(اِوـ)ر}{هرکدام که}{Whatever}{وات(اِوـ)ر}{هرچه که}`,
 ];
