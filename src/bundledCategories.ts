@@ -1,12 +1,12 @@
-/**
- * Optional built-in vocabulary.
- *
- * Add your categories directly to this array before building/deploying.
- * Each item must contain the same import text accepted by the Import screen.
- *
- * Example:
- * export const BUNDLED_CATEGORIES = [
- *   String.raw`\\voccategory{Family \& People}{افراد و خانواده}
+/
+  Optional built-in vocabulary.
+ 
+  Add your categories directly to this array before building/deploying.
+  Each item must contain the same import text accepted by the Import screen.
+ 
+ Example:
+  export const BUNDLED_CATEGORIES = [
+    String.raw`\\voccategory{Family \& People}{افراد و خانواده}
         \vwordpair{Mother}{(ما)ذِر}{مادر}{Son}{سان}{پسر}
 	\vwordpair{Father}{(فا)ذِر}{پدر}{Daughter}{(دا)تِر}{دختر}
 	\vwordpair{Brother}{(برا)ذِر}{برادر}{Grandfather}{(گرنـد)فاذِر}{پدربزرگ}
@@ -193,7 +193,7 @@
 	\vwordpair{Two-dimensional}{تو-دای(منـ)شنال}{دوبعدی}{Three-dimensional}{ثری-دای(منـ)شنال}{سه‌بعدی}
 	\vwordpair{Concave}{(کانـ)کیو}{مقعر}{Convex}{(کانـ)وکس}{محدب}
 	\vwordpair{Zigzag}{(زیگـ)زگ}{زیگزاگ}{Spiral}{(اسپایـ)رال}{مارپیچ}
- * ];
+  ];
  *
  * Leave the array empty if you prefer to import categories from the app.
  */
