@@ -66,57 +66,43 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       setError(null);
       let d = await loadAppData();
 
-// Import bundled categories without overwriting existing user data.
-// Each bundled category is added only if a category with the same
-// English and Persian names does not already exist.
-if (BUNDLED_CATEGORIES.length > 0) {
-  let changed = false;
+      // Build-time bundled categories are seeded individually without overwriting
+      // existing user data. This also allows newly bundled categories to be added
+      // to an existing installation later, while preserving user-created categories.
+      if (BUNDLED_CATEGORIES.length > 0) {
+        let changed = false;
 
-  for (const importText of BUNDLED_CATEGORIES) {
-    const parsed = parseImportText(importText);
+        for (const importText of BUNDLED_CATEGORIES) {
+          const parsed = parseImportText(importText);
+          if (!parsed.words.length) continue;
 
-    if (!parsed.words.length) continue;
+          const alreadyExists = d.categories.some(
+            (category) =>
+              category.englishName.trim().toLowerCase() === parsed.categoryEnglish.trim().toLowerCase() &&
+              category.persianName.trim() === parsed.categoryPersian.trim()
+          );
+          if (alreadyExists) continue;
 
-    const alreadyExists = d.categories.some(
-      (category) =>
-        category.englishName.trim().toLowerCase() ===
-          parsed.categoryEnglish.trim().toLowerCase() &&
-        category.persianName.trim() === parsed.categoryPersian.trim()
-    );
+          const catId = crypto.randomUUID();
+          const now = Date.now();
+          const newWords = createVocabularyItems(parsed.words, catId, d.vocabulary.length);
+          d = {
+            ...d,
+            categories: [...d.categories, {
+              categoryId: catId,
+              englishName: parsed.categoryEnglish,
+              persianName: parsed.categoryPersian,
+              createdAt: now,
+              modifiedAt: now,
+              wordIds: newWords.map(w => w.wordId),
+            }],
+            vocabulary: [...d.vocabulary, ...newWords],
+          };
+          changed = true;
+        }
 
-    if (alreadyExists) continue;
-
-    const catId = crypto.randomUUID();
-    const now = Date.now();
-
-    const newWords = createVocabularyItems(
-      parsed.words,
-      catId,
-      d.vocabulary.length
-    );
-
-    const newCategory: Category = {
-      categoryId: catId,
-      englishName: parsed.categoryEnglish,
-      persianName: parsed.categoryPersian,
-      createdAt: now,
-      modifiedAt: now,
-      wordIds: newWords.map((w) => w.wordId),
-    };
-
-    d = {
-      ...d,
-      categories: [...d.categories, newCategory],
-      vocabulary: [...d.vocabulary, ...newWords],
-    };
-
-    changed = true;
-  }
-
-  if (changed) {
-    await saveAppData(d);
-  }
-}
+        if (changed) await saveAppData(d);
+      }
 
       setData(d);
       // request persistence

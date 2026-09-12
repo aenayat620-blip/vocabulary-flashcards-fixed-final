@@ -52,6 +52,24 @@ export default function App() {
   const buildDeck = useCallback((catIds: string[], mode: string, order: string) => {
     if (!data) return [];
     let words = data.vocabulary.filter(v => v.categoryIds.some(id => catIds.includes(id)));
+    if (mode === 'continue') {
+      // Resume sequential study from the first never-studied word of each
+      // selected category, preserving category and word order.
+      const ids: string[] = [];
+      const added = new Set<string>();
+      for (const catId of catIds) {
+        const category = data.categories.find(c => c.categoryId === catId);
+        if (!category) continue;
+        for (const wordId of category.wordIds) {
+          if (added.has(wordId)) continue;
+          const word = data.vocabulary.find(v => v.wordId === wordId);
+          if (!word || word.learning.totalReviews > 0) continue;
+          added.add(wordId);
+          ids.push(wordId);
+        }
+      }
+      return ids;
+    }
     if (mode === 'unknown') words = words.filter(w => w.learning.lastAnswer === 'unknown' || w.learning.incorrectCount > 0);
     else if (mode === 'weak') words = words.filter(isWeak);
     else if (mode === 'due') words = words.filter(w => isDue(w));
@@ -250,7 +268,7 @@ export default function App() {
       {screen === 'studySetup' && <>
         <div className="app-header"><button className="btn btn-ghost" style={{width:'auto'}} onClick={() => setScreen('categories')}>←</button><div className="app-title">Study</div></div>
         <select className="form-select mb-1" value={studyMode} onChange={e => setStudyMode(e.target.value)}>
-          <option value="all">All</option><option value="due">Today</option><option value="weak">Weak</option><option value="starred">Starred</option><option value="smart">Smart</option><option value="unknown">Unknown</option>
+          <option value="all">All</option><option value="continue">Continue</option><option value="due">Today</option><option value="weak">Weak</option><option value="starred">Starred</option><option value="smart">Smart</option><option value="unknown">Unknown</option>
         </select>
         <select className="form-select mb-1" value={direction} onChange={e => setDirection(e.target.value as any)}>
           <option value="en-fa">EN→FA</option><option value="fa-en">FA→EN</option><option value="random">Random</option>
